@@ -11,6 +11,5 @@
 
 // SOLUTION:
 const betterThanAverage = (classPoints, yourPoints) => {
-    const averagePoint = classPoints.reduce((sum, current) => sum + current, 0) / classPoints.length - 1;
-    return yourPoints > averagePoint ? true : false;
+    return yourPoints > classPoints.reduce((sum, current) => sum + current, 0) / classPoints.length;
 }
