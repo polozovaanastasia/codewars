@@ -7,6 +7,4 @@
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
 // SOLUTION:
-const stringToArray = (str) => {
-    return str.split(' ');
-}
+const stringToArray = str =>  str.split(' ');
