@@ -7,4 +7,4 @@
 // You can assume that all values are integers. Do not mutate the input array/list.
 
 // SOLUTION:
-const invert = array => array.map(i => i ? i * -1 : i * 1);
+const invert = array => array.map(i => -i);
