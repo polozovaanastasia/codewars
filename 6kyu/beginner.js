@@ -4,6 +4,4 @@
 // [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 
 // SOLUTION:
-const grow = x => {
-    return x.reduce((sum, current) => sum * current);
-}
+const grow = x => x.reduce((sum, current) => sum * current);
